@@ -13,5 +13,5 @@ Getting start NextJS approaching some features that are listed bellow
  - [x] Root Path Import
  
  <h6 align="center">
-  Feito com :purple_heart:
+  Made with :purple_heart:
 </h6>
