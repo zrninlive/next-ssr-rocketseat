@@ -1,7 +1,13 @@
 import React from "react";
+import styled from "styled-components";
 
 import Link from "next/link";
 import Head from "next/head";
+
+const Title = styled.h1`
+  color: #069;
+  font-size: 40px;
+`;
 
 import withAnalytics from "../src/hocs/withAnalytics";
 
@@ -11,7 +17,7 @@ const Home = () => (
       <title>Home</title>
     </Head>
     <img src="/panda.jpg" width="200px" />
-    <h1>Hello World</h1>
+    <Title>Hello World</Title>
     <Link href="/users">
       <a>Usuários</a>
     </Link>
