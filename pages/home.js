@@ -9,7 +9,7 @@ const Title = styled.h1`
   font-size: 40px;
 `;
 
-import withAnalytics from "../src/hocs/withAnalytics";
+import withAnalytics from "~/hocs/withAnalytics";
 
 const Home = () => (
   <div>
