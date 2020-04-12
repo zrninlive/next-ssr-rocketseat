@@ -10,7 +10,7 @@ const Home = () => (
     <Head>
       <title>Home</title>
     </Head>
-
+    <img src="/panda.jpg" width="200px" />
     <h1>Hello World</h1>
     <Link href="/users">
       <a>Usuários</a>
